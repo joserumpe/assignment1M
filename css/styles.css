@@ -1,0 +1,154 @@
+.container{
+
+}
+.top{
+    background-image: url(../assets/backgrounds/hero.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.top h2 {
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+.top h3 {
+    color: white;
+    margin: 0;
+    left: 50%;
+    right: 50%;
+    padding: 20px;
+}
+.top p1{
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+.top_a{
+    position: relative;
+    min-height: 300px;
+    text-align: right;
+    padding: 20px;
+}
+.top_a p1{
+
+}
+.top_a img{
+    /*padding: 30px;*/
+}
+.logo{
+    display: inline-block;
+}
+.check{
+    height: 70px;
+    background-color: khaki;
+    position: relative;
+    padding: 15px;
+    /*text-align: right;*/
+}
+.boxes{
+    display: inline-block;
+    text-align: left;
+}
+.btn{
+    alignment: right;
+}
+
+.about{
+    background-image: url(../assets/backgrounds/about.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    padding-top: 30px;
+}
+.about p1{
+    color: white;
+    /*margin: 0 auto;*/
+    left: 50%;
+    right: 50%;
+    padding: 20px;
+}
+.promo{
+    background-color: dimgray;
+    height: 50px;
+}
+.promo p1{
+    color: white;
+    padding: 20px;
+}
+.promo img{
+    padding: 15px;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+    background-color: #1b1e21;
+    height: 250px;
+}
+.row:after{
+    content: "";
+    display: none;
+    clear: both;
+
+}
+.column p1{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.column p2{
+    color: white;
+    text-align: center;
+    bottom: 0;
+}
+.column img{
+    padding: 5px;
+}
+.men{
+    width: 33.33%;
+    display: inline-block;
+}
+.men p1{
+    float: left;
+    width: 60px;
+}
+.check button{
+    background-color: darkred;
+    color: white;
+    padding: 5px;
+}
+.products{
+    margin: 0px;
+    padding: 70px;
+}
+.products hr{
+    height: 0px;
+    color: #1d2124;
+}
+.women{
+    text-align: right;
+}
+.item{
+    height: 250px;
+    background-color: #e8d5ff;
+}
+.products label{
+    color: saddlebrown;
+}
+.bottom{
+    text-align: left;
+}
+.bot{
+}
+.buts{
+    text-align: right;
+}
+.column2{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    column-gap: 10px;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+}
